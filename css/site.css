@@ -1,0 +1,23 @@
+#board{
+    background-color: burlywood;
+    width: 800px;
+    height: 800px;
+}
+.row{
+    height: calc(100% /8);
+    display: flex;
+}
+
+.space{
+    width: calc(100%/8);
+    flex: 1;
+     
+}
+
+.red{
+    background-color: purple;
+}
+
+.black{
+    background-color: rgb(44, 26, 9);
+}
